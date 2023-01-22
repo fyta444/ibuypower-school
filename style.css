@@ -71,6 +71,7 @@ body {
 }
 
 .container-products > h1 {
+    justify-self: flex-start;
     margin-top: 2em;
 }
 
