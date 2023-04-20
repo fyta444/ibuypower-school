@@ -75,6 +75,7 @@ body {
     flex-direction: column;
     align-items: center;
     border-radius: 25px;
+    padding: 50px;
 }
 
 .container-products > h1 {
@@ -183,8 +184,9 @@ body {
 
 #Hades {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 5em;
+    padding: 1em;
 }
 
 #Hades img{
@@ -193,7 +195,7 @@ body {
 }
 
 #Hades p{
-    margin: 50px;
+    margin: 25px;
     font-size: large;
 }
 
@@ -204,6 +206,7 @@ body {
 #Zeus {
     display: flex;
     align-items: center;
+    flex-direction: column;
     padding: 5em;
 }
 
@@ -213,7 +216,7 @@ body {
 }
 
 #Zeus p{
-    margin: 50px;
+    margin: 25px;
     font-size: large;
 }
 
@@ -224,6 +227,7 @@ body {
 #Hephaestus {
     display: flex;
     align-items: center;
+    flex-direction: column;
     padding: 5em;
 }
 
@@ -233,7 +237,7 @@ body {
 }
 
 #Hephaestus p{
-    margin: 50px;
+    margin: 25px;
     font-size: large;
 }
 
@@ -244,6 +248,7 @@ body {
 #Helios {
     display: flex;
     align-items: center;
+    flex-direction: column;
     padding: 5em;
 }
 
@@ -253,7 +258,7 @@ body {
 }
 
 #Helios p{
-    margin: 50px;
+    margin: 25px;
     font-size: large;
 }
 
@@ -264,6 +269,7 @@ body {
 #Ares {
     display: flex;
     align-items: center;
+    flex-direction: column;
     padding: 5em;
 }
 
@@ -273,7 +279,7 @@ body {
 }
 
 #Ares p{
-    margin: 50px;
+    margin: 25px;
     font-size: large;
 }
 
@@ -284,6 +290,7 @@ body {
 #Poseidon {
     display: flex;
     align-items: center;
+    flex-direction: column;
     padding: 5em;
 }
 
@@ -293,7 +300,7 @@ body {
 }
 
 #Poseidon p{
-    margin: 50px;
+    margin: 25px;
     font-size: large;
 }
 
