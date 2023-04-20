@@ -3,13 +3,13 @@
 * {
     font-family: "Rubik", sans-serif;
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 html{
     scroll-behavior: smooth;
 }
 body {
-    background: #f3f4f5;
+    background: #19191b;
 }
 
 .navbar {
@@ -18,9 +18,11 @@ body {
     align-content: center;
     gap: 5em;
     padding: 32px 0px;
-    background-color: #ffffff;
+    background-color: #202124;
     width: 75%;
     margin: auto;
+    padding: 50px;
+    border-radius: 25px;
 }
 
 .navbar-img > img {
@@ -53,23 +55,26 @@ body {
 
 
 .container {
-    background-color: #ffffff;
+    background-color: #202124;
     width: 75%;
     margin: auto;
     margin-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px;
+    border-radius: 25px;
 }
 
 .container-products {
-    background-color: #ffffff;
+    background-color: #202124;
     width: 75%;
     margin: auto;
     margin-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 25px;
 }
 
 .container-products > h1 {
