@@ -294,3 +294,20 @@ body {
 
 
 
+@media screen and (max-width: 450px) { 
+    .container-img-pc {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 450px) { 
+    .navbar {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 450px) { 
+    .container-pc {
+        display: block;
+    }
+}
