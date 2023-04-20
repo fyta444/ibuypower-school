@@ -124,7 +124,7 @@ body {
 
 .button{
     padding: 16px 32px;
-    background-color: #CACBCD;
+    background-color: #303133;
     border-radius: 4px;
     text-align: center;
     font-size: 14px;
@@ -134,7 +134,7 @@ body {
 }
 .button:hover{
     background-color: red;
-    color: white;
+    color: #000;
 }
 
 .container-btn{
@@ -168,12 +168,12 @@ body {
     display: block;
     height: calc(100% - 15px);
     width: calc(100% - 15px);
-    background-color: #ffffff;
+    background-color: #202124;
     border-radius: 50%;
     display: grid;
     place-items: center;
     font-size: 35px;
-    color: #001a2e;
+    color: #fff;
   }
 
 
