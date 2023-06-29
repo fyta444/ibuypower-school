@@ -12,7 +12,7 @@ body {
     background: #f3f4f5;
 }
 
-.navbar {
+nav {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -23,9 +23,8 @@ body {
     margin: auto;
     border-radius: 5px;
 }
-
-.navbar-img > img {
-    width: 100px;
+.nav-img > img {
+    width: 60px;
 }
 
 .nav-item {
@@ -157,7 +156,7 @@ body {
     color: #001a2e;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -177,6 +176,9 @@ hr {
     border: none;
 }
 
+img {
+    background: none;
+}
 #Hades {
     display: flex;
     align-items: center;
@@ -271,4 +273,50 @@ hr {
 #Poseidon p {
     margin: 50px;
     font-size: large;
+}
+
+@media screen and (max-width: 780px) {
+    img {
+        width: 80px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 20px;
+        padding: 1em;
+    }
+    p {
+        font-size: 15px;
+        margin: auto;
+        padding: 2em;
+
+    }
+    .container-img-pc {
+        margin: auto;
+        padding: 2em;
+        padding-top: 2em;
+        display: flex;
+        flex-direction: column;
+    }
+    .product-page {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 1280px) {
+    p {
+        padding: 1em;
+    }
+    img{
+        width: 100px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 12px;
+        margin: auto    ;
+    }
 }
